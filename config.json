@@ -1,8 +1,8 @@
 {
   "public": {
     "default": {
-      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/JNjfhWJ3MJvZhj3bwsamRP/graphql",
-      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/JNjfhWJ3MJvZhj3bwsamRP/graphql",
+      "commerce-endpoint": "https://catalog-service.adobe.io/graphql",
+      "commerce-core-endpoint": "https://55212aae61c5.ngrok.app/graphql",
       "headers": {
         "all": {
           "Store": "default"
@@ -10,7 +10,9 @@
         "cs": {
           "Magento-Store-Code": "main_website_store",
           "Magento-Store-View-Code": "default",
-          "Magento-Website-Code": "base"
+          "Magento-Website-Code": "base",
+          "x-api-key": "51a333d795054926a71bcc0ce93f0620",
+          "Magento-Environment-Id": "dfd2282c-dad4-45e1-a3df-5cd93ac5e1c4"
         }
       },
       "commerce-assets-enabled": false,
